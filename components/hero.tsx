@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { PlusIcon, Users } from "lucide-react";
+import { CalendarRange, PlusIcon, Users } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "./ui/button";
 
@@ -54,17 +54,15 @@ export function Hero({ children, startupNumber = 0 }: { children?: React.ReactNo
             <PlusIcon className="size-4 mr-1 mb-0.5" /> Submit startup
           </Link>
         </Button>
-        {/** 
         <Link
-          href="/join"
+          href="/events"
           target="_blank"
           rel="noopener"
           className="flex items-center hover:underline"
         >
-          <Users className="size-4 mr-1 mb-0.5" />
-          Join the Cabal
+          <CalendarRange className="size-4 mr-1 mb-0.5" />
+          Events
         </Link>
-        */}
       </div>
       {children}
     </div>

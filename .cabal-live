@@ -1,0 +1,21 @@
+### PRODUCTION
+# Convex
+CONVEX_DEPLOYMENT=deploy:neighborly-starling-797
+NEXT_PUBLIC_CONVEX_URL=https://neighborly-starling-797.convex.cloud
+NEXT_PUBLIC_CONVEX_HTTP_URL=https://neighborly-starling-797.convex.site
+CLIENT_ORIGIN=https://www.builderscabal.com
+
+# Clerk
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_live_Y2xlcmsuYnVpbGRlcnNjYWJhbC5jb20k
+CLERK_SECRET_KEY=sk_live_KMWtkklcBiSGE3xSS5lm3sv2NJDsndLfnkanHeETCB
+CLERK_WEBHOOK_SECRET=whsec_KvLMxWHc2lUc+qmtogr5Uva0973ShzmO
+NODE_ENV=production
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_REDIRECT_URL="/dashboard"
+NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_REDIRECT_URL="/dashboard"
+
+NEXT_PUBLIC_URL=https://www.builderscabal.com
+
+VERCEL_URL=https://www.builderscabal.com
